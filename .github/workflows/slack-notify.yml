@@ -8,7 +8,7 @@ on:
 
 jobs:
   send-slack:
-    runs-on: ubuntu-latest
+    runs-on: [self-hosted, linux, lunch-menu]
     permissions:
       contents: read
 
